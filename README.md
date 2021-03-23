@@ -43,9 +43,9 @@ The YAML files used are:
         drwxr-x---    1 RichardN UsersGrp         0 Mar 17 13:22 yaml
 
                                           
-     The `ldif` afolder contains a sample ldif fill which can imported to teh new LDAP server after installation
+     The `ldif` folder contains a sample ldif fill which can imported to teh new LDAP server after installation
      
-     The `yaml` a folder contains install yaml templates which will be modfied based on variables. Thus after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actully where used for deplyoment.
+     The `yaml` folder contains install yaml templates which will be modfied based on variables. Thus after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually where used for deployment.
      
 1. Transfer archive to your OCP node
 1. Untar/unzip the transfered file into a temp directory
