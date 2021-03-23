@@ -58,7 +58,7 @@ Change to the `openldap` folder and run the script
         # ./deploy_openldap.sh
 
 
-## 5. Sample Run
+## 5. Sample Run ( local storage used )
 ```
 [root@norway-inf openldap]# ./deploy_openldap_V2.sh
 INFO: Procedure started
