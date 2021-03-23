@@ -171,8 +171,8 @@ OPENLDAP login password: passw0rd
 # --- Import sammple groups and users:
 oc -n openldap cp ./ldif/openldap_sample.ldif openldap-6cc78f6fb-tlkc7:/tmp/sample.ldif
 oc -n openldap rsh openldap-6cc78f6fb-tlkc7 ldapadd -D "cn=admin,dc=example,dc=com" -w passw0rd -f /tmp/sample.ldif
--- Examples ldap commands:
-- list group
+# --- Examples ldap commands:
+- list groups
 oc -n openldap rsh openldap-6cc78f6fb-tlkc7 ldapsearch -LLL -x -H ldap:// -D "cn=admin,dc=example,dc=com" -w passw0rd -b "dc=example,dc=com" "(memberOf=cn=support,ou=groups,dc=example,dc=com)" dn | grep dn
 - list objects and limit output to 10 rows
 oc -n openldap rsh openldap-6cc78f6fb-tlkc7 ldapsearch -LLL -x -H ldap://worker0.norway.cp.fyre.ibm.com:30389 -D "cn=admin,dc=example,dc=com" -w passw0rd -b "dc=example,dc=com" "objectclass=*" 1.1 -z 10
