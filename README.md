@@ -3,7 +3,7 @@ Deply Openldap
 
 ## 1. Overview
 
-This procedure deploys a OpenLdap application into OCP.
+This procedure deploys a OpenLdap and OpenLdapAdmin too application into OCP.
 
 The YAML files used are:
 
@@ -16,21 +16,7 @@ The YAML files used are:
 |./yaml/openldapadmin-template.yaml  | create OpenldapAdmin app | matthias.jung@de.ibm.com |
 
 
-## 2. Variables used
-
-| File | Default | Meaning |
-| ------ | --------- | -------- | 
-| ADMIN_PASSWORD | passw0rd | Ldap admin password  | 
-| OPENLDAP_NS | openldap | OCP namespace where LDAP will be installed | 
-| BASE_DN | "dc=example,dc=com" | LDAP Base DN | 
-| DOMAIN | example.com | LDAp domain  | 
-| ORGANISATION | EXAMPLE.COM | LDAP organization name | 
-| OPENLDAP_VER |  1.3.0 | Openldap version | 
-| LOCAL_SC_NAME| local-openldap |  local storage class name if used  |  
-| OPENLDAP_ADMIN | yes| If "yes" OpendldapAdmin tool will be installed  |  
-
-
-## 3. Installation
+## 2. Installation
 
 1. If you did not done it already [download](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/releases/) the latest source code release of this tool.
 1. The downloaded archive contains the following files:
@@ -49,13 +35,7 @@ The YAML files used are:
      
 1. Transfer archive to your OCP node
 1. Untar/unzip the transfered file into a temp directory
-
-## 4. Execution
-
-Change to the `openldap` folder and run the script
-
-        # cd openldap
-        # ./deploy_openldap.sh
+1. Execute deploy-openldap.sh  [**deploy-openldap.sh**](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/wiki/deploy-openldap.sh)
 
 
 ## 5. Sample Run ( local storage used )
