@@ -3,7 +3,7 @@
 
 ## 1. Overview
 
-This procedure deploys an OpenLdap and OpenLdapAdmin (phpLDAPadmin)  application into OCP.
+This procedure deploys an OpenLdap and OpenLdapadmin tool (phpLDAPadmin) application into OCP.
 Doc: 
 - [OpenLDAP Software 2.4 Administrator's Guide](https://www.openldap.org/doc/admin24/guide.html)
 - [phpLDAPadmin](http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page)
