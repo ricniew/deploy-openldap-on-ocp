@@ -28,9 +28,10 @@ The YAML files used are:
         drwxr-x---    1 RichardN UsersGrp         0 mar 17 13:22 yaml
 
                                           
-     The `ldif` folder contains a sample LDIF file. This file is modified during install (based on variables set in section 2.) and can imported to the new LDAP server after deployment.
+      [deploy-openldap.sh](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/wiki/deploy-openldap.sh) is the Openldap deploy procedure
+     The `ldif` folder contains a sample LDIF file. This file is modified during install (based on variables set, see section 2. in [deploy-openldap.sh](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/wiki/deploy-openldap.sh) ) and can imported to the new LDAP server after deployment.
      
-     The `yaml` folder contains install yaml templates which will be modfied based on variables. Thus after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually where used for deployment.
+     The `yaml` folder contains install yaml templates which will be modfied based on variables. Thus, after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually where used for deployment.
      
 1. Transfer archive to your OCP node
 1. Untar/unzip the transfered file into a temp directory
