@@ -34,7 +34,7 @@ The downloaded archive contains the following files:
 ```
                                           
 1.  [deploy_openldap.sh](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/blob/master/openldap/deploy_openldap.sh) is the Openldap deploy procedure
-1. The `ldif` folder contains a sample LDIF file. This file is modified during install (based on variables set, see section 2. in [deploy-openldap.sh](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/wiki/deploy-openldap.sh) ) and can imported to the new LDAP server after deployment.
+1. The `ldif` folder contains a [sample LDIF file](https://github.ibm.com/niewolik/deploy-openldap-on-ocp/wiki/sample-ldif). This file is modified during install (based on variables set, see section 2. in [deploy-openldap.sh](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/wiki/deploy-openldap.sh) ) and can imported to the new LDAP server after deployment.
      
  1. The `yaml` folder contains install yaml templates which will be modfied based on variables. Thus, after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually where used for deployment.
 
