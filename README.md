@@ -46,7 +46,7 @@ The downloaded archive contains the following files:
     |local-pv-ldap-template.yaml | create local persitant volumes | niewolik@de.ibm.com |
     |local-sc-ldap-template.yaml | create local stoarage class | niewolik@de.ibm.com |
     |openldap-localsc-template.yaml  | create Openldap app and use local storage | niewolik@de.ibm.com |
-    |openldap-template.yaml  | create Openldap app and use storage class provided or default storage | matthias.jung@de.ibm.com |
+    |openldap-template.yaml  | create Openldap app and use storage class <BR> provided or default storage | matthias.jung@de.ibm.com |
     |openldapadmin-template.yaml  | create OpenldapAdmin app | matthias.jung@de.ibm.com |
  
      Thus, after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually were used for deployment. There will also one new yaml which is used to modify the automatically generated nodeport.
