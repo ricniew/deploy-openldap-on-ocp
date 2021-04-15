@@ -21,11 +21,20 @@ The YAML files used are:
 1. If you did not done it already [download](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/releases/) the latest source code release of this tool.
 1. The downloaded archive contains the following files:
 
-        #   ls -l
-        total 20
-        -rwxrwx---    1 RichardN UsersGrp     15819 Apr 15 13:31 deploy_openldap.sh
-        drwxr-x---    1 RichardN UsersGrp         0 Mar 15 14:00 ldif
-        drwxr-x---    1 RichardN UsersGrp         0 mar 17 13:22 yaml
+       # ls -lR
+          deploy_openldap_V2.sh
+          ldif
+          yaml
+     
+         ./ldif:
+          openldap_sample_template.ldif
+         
+         ./yaml:
+          local-pv-ldap-template.yaml
+          local-sc-ldap-template.yaml
+          openldap-localsc-template.yaml
+          openldap-template.yaml
+          openldapadmin-template.yaml
 
                                           
       [deploy-openldap.sh](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/wiki/deploy-openldap.sh) is the Openldap deploy procedure
