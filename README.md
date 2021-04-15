@@ -10,7 +10,7 @@ This procedure deploys an OpenLdap and OpenLdapAdmin application into OCP.
 1. If you did not done it already [download](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/releases/) the latest source code release of this tool.
 1. Transfer archive to your OCP node
 1. Untar/unzip the transfered file into a temp directory
-1. Execute  [**deploy-openldap.sh**](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/wiki/deploy-openldap.sh)
+1. Execute  [**deploy_openldap.sh**](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/blob/master/openldap/deploy_openldap.sh)
 
 ## 3. Content
 
