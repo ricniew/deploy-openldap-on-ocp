@@ -12,7 +12,7 @@ The YAML files used are:
 |./yaml/local-pv-ldap-template.yaml | create local persitant volumes | niewolik@de.ibm.com |
 |./yaml/local-sc-ldap-template.yaml | create local stoarage class | niewolik@de.ibm.com |
 |./yaml/openldap-localsc-template.yaml  | create Openldap app and use local storage | niewolik@de.ibm.com |
-|./yaml/openldap-template.yaml  | create Openldap app and use storage class provided | matthias.jung@de.ibm.com |
+|./yaml/openldap-template.yaml  | create Openldap app and use storage class provided or default storage | matthias.jung@de.ibm.com |
 |./yaml/openldapadmin-template.yaml  | create OpenldapAdmin app | matthias.jung@de.ibm.com |
 
 
@@ -23,10 +23,9 @@ The YAML files used are:
 
         #   ls -l
         total 20
-        -rwxrwx---    1 RichardN UsersGrp     14239 Mar 15 14:02 deploy_openldap.sh
-        -rwxrwx---    1 RichardN UsersGrp     15819 Mar 23 12:29 deploy_openldap_V2.sh
+        -rwxrwx---    1 RichardN UsersGrp     15819 Apr 15 13:31 deploy_openldap.sh
         drwxr-x---    1 RichardN UsersGrp         0 Mar 15 14:00 ldif
-        drwxr-x---    1 RichardN UsersGrp         0 Mar 17 13:22 yaml
+        drwxr-x---    1 RichardN UsersGrp         0 mar 17 13:22 yaml
 
                                           
      The `ldif` folder contains a sample ldif fill which can imported to teh new LDAP server after installation
