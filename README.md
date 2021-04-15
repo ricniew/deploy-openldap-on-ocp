@@ -1,5 +1,5 @@
 # deploy-openldap-on-ocp
-Deply Openldap 
+
 
 ## 1. Overview
 
