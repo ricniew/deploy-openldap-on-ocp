@@ -49,7 +49,7 @@ The downloaded archive contains the following files:
     |openldap-template.yaml  | create Openldap app and use storage class <BR> provided or default storage | matthias.jung@de.ibm.com |
     |openldapadmin-template.yaml  | create OpenldapAdmin app | matthias.jung@de.ibm.com |
  
-     Thus, after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually were used for deployment. There will also one new yaml which is used to modify the automatically generated nodeport.
+     Thus, after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually were used for deployment. There will be also one new yaml file, which is used to modify the automatically generated nodeport (via _oc expose ... --nodeport ..._).
  
     | Before | After |
     | ------ | ----- |
