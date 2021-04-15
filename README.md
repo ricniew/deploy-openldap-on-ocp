@@ -8,7 +8,6 @@ Doc:
 - [OpenLDAP Software 2.4 Administrator's Guide](https://www.openldap.org/doc/admin24/guide.html)
 - [Main Page phpLDAPadmin](http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page)
 
-phpLDAPadmin
 
 ## 2. Installation
 
