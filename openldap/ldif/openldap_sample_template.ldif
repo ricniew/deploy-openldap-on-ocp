@@ -1,0 +1,316 @@
+### Setup the Users OU
+dn: ou=users,[BASE-DN]
+changetype: add
+objectClass: organizationalUnit
+description: All users in organization
+ou: users
+
+### Setup the Groups OU
+dn: ou=groups,[BASE-DN]
+changetype: add
+objectClass: organizationalUnit
+objectClass: top
+ou: groups
+
+### Setup all of the users
+dn: uid=oneil,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: oneilCN
+sn: oneilSN
+uid: oneil
+mail: oneil@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=caterina,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: caterinaCN
+sn: caterinaSN
+uid: caterina
+mail: caterina@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=sandra,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: sandraCN
+sn: sandraSN
+uid: sandra
+mail: sandra@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=walter,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: walterCN
+sn: walterSN
+uid: walter
+mail: walter@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=jens,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: jensCN
+sn: jensSN
+uid: jens
+mail: jens@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=kirk,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: kirkCN
+sn: kirkSN
+uid: kirk
+mail: kirk@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=amir,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: amirCN
+sn: amirSN
+uid: amir
+mail: amir@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=eric,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: ericCN
+sn: ericSN
+uid: eric
+mail: eric@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=kevin,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: kevinCN
+sn: kevinSN
+uid: kevin
+mail: kevin@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=wale,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: waleCN
+sn: waleSN
+uid: wale
+mail: wale@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=valerio,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: valerioCN
+sn: valerioSN
+uid: valerio
+mail: valerio@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=bart,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: bartCN
+sn: bartSN
+uid: bart
+mail: bart@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=yuki,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: yukiCN
+sn: yukiSN
+uid: yuki
+mail: yuki@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=marcella,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: marcellaCN
+sn: marcellaSN
+uid: marcella
+mail: marcella@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=sergio,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: sergioCN
+sn: sergioSN
+uid: sergio
+mail: sergio@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=ioan,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: ioanCN
+sn: ioanSN
+uid: ioan
+mail: ioan@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=andrea,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: andreaCN
+sn: andreaSN
+uid: andrea
+mail: andrea@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=richard,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: richardCN
+sn: richardSN
+uid: richard
+mail: richard@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=roberto,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: robertoCN
+sn: robertoSN
+uid: roberto
+mail: roberto@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=igor,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: igorCN
+sn: igorSN
+uid: igor
+mail: igor@corporate-email.com
+userPassword: passw0rd
+
+dn: uid=alexa,ou=users,[BASE-DN]
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: alexaCN
+sn: alexaSN
+uid: alexa
+mail: alexa@corporate-email.com
+userPassword: passw0rd
+
+### Create all of the groups and assign the users
+
+dn: cn=develpers,ou=groups,[BASE-DN]
+changetype: add
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: developers
+uniquemember: uid=roberto,ou=users,[BASE-DN]
+
+dn: cn=operations,ou=groups,[BASE-DN]
+changetype: add
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: operations
+uniquemember: uid=igor,ou=users,[BASE-DN]
+
+dn: cn=security,ou=groups,[BASE-DN]
+changetype: add
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: security
+uniquemember: uid=alexa,ou=users,[BASE-DN]
+
+dn: cn=support,ou=groups,[BASE-DN]
+changetype: add
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: support
+uniquemember: uid=marcella,ou=users,[BASE-DN]
+uniquemember: uid=amir,ou=users,[BASE-DN]
+uniquemember: uid=eric,ou=users,[BASE-DN]
+uniquemember: uid=kevin,ou=users,[BASE-DN]
+uniquemember: uid=wale,ou=users,[BASE-DN]
+uniquemember: uid=valerio,ou=users,[BASE-DN]
+uniquemember: uid=bart,ou=users,[BASE-DN]
+uniquemember: uid=yuki,ou=users,[BASE-DN]
+uniquemember: uid=oneil,ou=users,[BASE-DN]
+uniquemember: uid=caterina,ou=users,[BASE-DN]
+uniquemember: uid=sandra,ou=users,[BASE-DN]
+uniquemember: uid=walter,ou=users,[BASE-DN]
+uniquemember: uid=jens,ou=users,[BASE-DN]
+uniquemember: uid=kirk,ou=users,[BASE-DN]
+uniquemember: uid=sergio,ou=users,[BASE-DN]
+uniquemember: uid=ioan,ou=users,[BASE-DN]
+uniquemember: uid=andrea,ou=users,[BASE-DN]
+uniquemember: uid=richard,ou=users,[BASE-DN]
+
+
+
