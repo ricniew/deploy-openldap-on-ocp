@@ -14,30 +14,29 @@ This procedure deploys an OpenLdap and OpenLdapAdmin application into OCP.
 
 ## 3. Content
 
-1. The downloaded archive contains the following files:
+The downloaded archive contains the following files:
 
-       # ls -lR
-          deploy_openldap_V2.sh
-          ldif
-          yaml
-     
-         ./ldif:
-          openldap_sample_template.ldif
+```
+# ls -lR
+    deploy_openldap_V2.sh
+    ldif
+    yaml
+    
+  ./ldif:
+    openldap_sample_template.ldif
          
-         ./yaml:
-          local-pv-ldap-template.yaml
-          local-sc-ldap-template.yaml
-          openldap-localsc-template.yaml
-          openldap-template.yaml
-          openldapadmin-template.yaml
-
+   ./yaml:
+     local-pv-ldap-template.yaml
+     local-sc-ldap-template.yaml
+     openldap-localsc-template.yaml
+     openldap-template.yaml
+     openldapadmin-template.yaml
+```
                                           
-      [deploy-openldap.sh](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/wiki/deploy-openldap.sh) is the Openldap deploy procedure
-     The `ldif` folder contains a sample LDIF file. This file is modified during install (based on variables set, see section 2. in [deploy-openldap.sh](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/wiki/deploy-openldap.sh) ) and can imported to the new LDAP server after deployment.
+1. [deploy-openldap.sh](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/wiki/deploy-openldap.sh) is the Openldap deploy procedure
+1. The `ldif` folder contains a sample LDIF file. This file is modified during install (based on variables set, see section 2. in [deploy-openldap.sh](https://github.ibm.com/NIEWOLIK/deploy-openldap-on-ocp/wiki/deploy-openldap.sh) ) and can imported to the new LDAP server after deployment.
      
-     The `yaml` folder contains install yaml templates which will be modfied based on variables. Thus, after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually where used for deployment.
-    YAMLs:
-    The YAML files:
+ 1. The `yaml` folder contains install yaml templates which will be modfied based on variables. Thus, after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually where used for deployment.
 
     | File | Meaning | Provide by |
     | -------- | ----------- |----------|
