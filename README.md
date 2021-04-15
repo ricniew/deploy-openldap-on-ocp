@@ -49,7 +49,7 @@ The downloaded archive contains the following files:
     |openldap-template.yaml  | create Openldap app and use storage class provided or default storage | matthias.jung@de.ibm.com |
     |openldapadmin-template.yaml  | create OpenldapAdmin app | matthias.jung@de.ibm.com |
  
-     Thus, after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually were used for deployment
+     Thus, after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually were used for deployment. There will also one new yaml which is used to modify the automatically generated nodeport.
  
     | Before | After |
     | ------ | ----- |
@@ -58,15 +58,5 @@ The downloaded archive contains the following files:
     | openldap-localsc-template.yaml | openldap.yaml (used for local storage class) |
     | openldap-template.yaml | openldap.yaml (used for specific and default storage class) |
     | openldapadmin-template.yaml | openldapadmin.yaml |
+    | n/a | openldap-svc-nodeport.yaml |
     
-     
-     openldap-svc-nodeport.yaml
-    
-
-    | File | Meaning | Provide by |
-    | -------- | ----------- |----------|
-    |./yaml/local-pv-ldap-template.yaml | create local persitant volumes | niewolik@de.ibm.com |
-    |./yaml/local-sc-ldap-template.yaml | create local stoarage class | niewolik@de.ibm.com |
-    |./yaml/openldap-localsc-template.yaml  | create Openldap app and use local storage | niewolik@de.ibm.com |
-    |./yaml/openldap-template.yaml  | create Openldap app and use storage class provided or default storage | matthias.jung@de.ibm.com |
-    |./yaml/openldapadmin-template.yaml  | create OpenldapAdmin app | matthias.jung@de.ibm.com |
