@@ -28,7 +28,7 @@ The YAML files used are:
         drwxr-x---    1 RichardN UsersGrp         0 mar 17 13:22 yaml
 
                                           
-     The `ldif` folder contains a sample ldif fill which can imported to teh new LDAP server after installation
+     The `ldif` folder contains a sample LDIF file. This file is modified during install (based on variables set in section 2.) and can imported to the new LDAP server after deployment.
      
      The `yaml` folder contains install yaml templates which will be modfied based on variables. Thus after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually where used for deployment.
      
