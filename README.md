@@ -51,7 +51,7 @@ The downloaded archive contains the following files:
  
      Thus, after deploy script ended, you will find new yaml files (without "template" string). Those are the files which actually were used for deployment. There will be also one new yaml file, which is used to modify the automatically generated nodeport (via _oc expose ... --nodeport ..._).
  
-    | Before | After |
+    | Template | New file |
     | ------ | ----- |
     | local-pv-ldap-template.yaml | local-pv-ldap-0.yaml |
     | local-sc-ldap-template.yaml | local-sc-ldap.yaml  | 
